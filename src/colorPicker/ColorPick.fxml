@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXColorPicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="colorPicker.Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <Pane fx:id="pane" layoutX="55.0" layoutY="41.0" prefHeight="310.0" prefWidth="472.0">
+         <children>
+            <JFXColorPicker fx:id="colorPicker" layoutX="199.0" layoutY="130.0" onAction="#changeColor" />
+            <JFXCheckBox fx:id="flag" checkedColor="#ff4319" layoutX="193.0" layoutY="220.0" text="BackGround Color" unCheckedColor="#34e41d">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXCheckBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
