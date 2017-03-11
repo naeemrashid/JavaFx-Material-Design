@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textField.Controller">
+   <children>
+      <JFXTextField fx:id="nameField" labelFloat="true" layoutX="43.0" layoutY="68.0" maxWidth="463.0" minWidth="369.0" prefHeight="20.0" prefWidth="463.0" promptText="Enter your Name" />
+      <JFXTextField fx:id="jobField" labelFloat="true" layoutX="43.0" layoutY="142.0" maxWidth="463.0" minWidth="369.0" prefHeight="40.0" prefWidth="463.0" promptText="Enter your Job" />
+   </children>
+</AnchorPane>
