@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton fx:id="greenButton" layoutX="98.0" layoutY="175.0" prefHeight="55.0" prefWidth="102.0" ripplerFill="#91ff1c" style="-fx-background-color: #00cc00;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="yellowButton" buttonType="RAISED" layoutX="227.0" layoutY="175.0" prefHeight="55.0" prefWidth="102.0" ripplerFill="WHITE" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="redButton" layoutX="382.0" layoutY="175.0" prefHeight="55.0" prefWidth="102.0" ripplerFill="#ff8c6f" style="-fx-background-color: #ff0000;" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
