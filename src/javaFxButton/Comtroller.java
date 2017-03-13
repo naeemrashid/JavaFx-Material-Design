@@ -8,6 +8,10 @@ import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
+/**
+ * @author Naeem Rashid
+ *
+ */
 public class Comtroller implements Initializable{
 	  @FXML
 	    private JFXButton greenButton;

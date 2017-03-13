@@ -13,6 +13,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.input.MouseEvent;
 
+/**
+ * @author Naeem Rashid
+ *
+ */
 public class Controller implements Initializable{
 	 @FXML
 	    private JFXHamburger hamBurger1;
@@ -25,6 +29,9 @@ public class Controller implements Initializable{
 	    @FXML
 	    private JFXHamburger hamBurger2;
 
+	/* (non-Javadoc)
+	 * @see javafx.fxml.Initializable#initialize(java.net.URL, java.util.ResourceBundle)
+	 */
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 			HamburgerSlideCloseTransition slideTransition = new HamburgerSlideCloseTransition(hamBurger1);

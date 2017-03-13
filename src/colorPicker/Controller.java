@@ -18,6 +18,10 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 
+/**
+ * @author Naeem Rashid
+ *
+ */
 public class Controller implements Initializable{
 
     @FXML

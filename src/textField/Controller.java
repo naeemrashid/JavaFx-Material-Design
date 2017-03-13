@@ -15,6 +15,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+/**
+ * @author Naeem Rashid
+ *
+ */
 public class Controller implements Initializable{
 	@FXML
     private JFXTextField nameField;
