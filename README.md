@@ -1,7 +1,7 @@
 JavaFx-Material-Design
 ======================
-JavaFx Material Design with jfoenix library.
---------------------------------------------
+#JavaFx Material Design with jfoenix library.
+
 ## Includes
 + Charts
 + Color Picker
